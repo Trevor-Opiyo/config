@@ -14,8 +14,6 @@ alias pref="nvim .config/alacritty/alacritty.yml"
 alias upgrade="brew upgrade; mas upgrade; softwareupdate -ia"
 export PATH="/usr/local/opt/ruby/bin:$PATH"
 export PATH="/usr/local/opt/go/bin:$PATH"
-alias tube="youtube-dl -o \"~/Movies/%(title)s.%(ext)s\" -f bestvideo+bestaudio"
-export PATH="/Users/trevoropiyo/.cargo/bin:$PATH"
 if type brew &>/dev/null; then
   FPATH=$(brew --prefix)/share/zsh/site-functions:$FPATH
 
