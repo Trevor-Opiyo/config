@@ -1,0 +1,7 @@
+prompt = "__zoxide_hook;.starship_prompt"
+startup = [
+   "mkdir.~/.cache/starship",
+   "zoxide.init.nushell.--hook.prompt.|.save.~/zoxide.nu",
+   "source.~/.zoxide.nu",
+   "source.~/.cache/starship/init.nu"
+]
