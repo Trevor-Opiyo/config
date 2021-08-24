@@ -1,0 +1,35 @@
+complete_from_path = true
+ctrlc_exit = true
+path = ["/usr/local/opt/curl/bin", "/usr/local/bin", "/usr/bin", "/bin", "/usr/sbin", "/sbin", "/Users/trevoropiyo/.cargo/bin"]
+prompt = "starship_prompt"
+skip_welcome_message = true
+startup = ["zoxide init nushell --hook prompt | save ~/.zoxide.nu", "source ~/.cache/starship/init.nu", "source ~/.zoxide.nu"]
+
+[env]
+CMD_DURATION_MS = "1"
+COLORTERM = "truecolor"
+COMMAND_MODE = "unix2003"
+HOME = "/Users/trevoropiyo"
+LANG = "en_US.UTF-8"
+LOGNAME = "trevoropiyo"
+OLDPWD = "/Users/trevoropiyo"
+PWD = "/Users/trevoropiyo"
+SHELL = "/bin/zsh"
+SHLVL = "1"
+SSH_AUTH_SOCK = "/private/tmp/com.apple.launchd.8FKrViryyF/Listeners"
+STARSHIP_SESSION_KEY = "TZtctxPDTVo5KWlP"
+STARSHIP_SHELL = "nu"
+TERM = "xterm-256color"
+TERM_PROGRAM = "WezTerm"
+TERM_PROGRAM_VERSION = "20210821-070816-9a112e82"
+TMPDIR = "/var/folders/ls/y95jqkc11x3blfbs_9jyb2rh0000gn/T/"
+USER = "trevoropiyo"
+WEZTERM_EXECUTABLE = "/Applications/WezTerm.app/Contents/MacOS/wezterm-gui"
+WEZTERM_EXECUTABLE_DIR = "/Applications/WezTerm.app/Contents/MacOS"
+WEZTERM_PANE = "0"
+WEZTERM_UNIX_SOCKET = "/Users/trevoropiyo/.local/share/wezterm/gui-sock-33037"
+XPC_FLAGS = "0x0"
+XPC_SERVICE_NAME = "0"
+_ = "/Users/trevoropiyo/.cargo/bin/nu"
+__CFBundleIdentifier = "com.github.wez.wezterm"
+__CF_USER_TEXT_ENCODING = "0x1F5:0x0:0x0"
