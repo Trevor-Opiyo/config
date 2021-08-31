@@ -1,46 +1,50 @@
-  1  env:
-  2    TERM: alacritty
-  3
-  4  window:
-  5
-  6    padding:
-  7
-  8      x: 10
-  9      y: 10
- 10
- 11    dynamic_padding: true
- 12    decorations: buttonless
- 13
- 14  font:
- 15
- 16    normal:
- 17
- 18      family: BlexMono Nerd Font Mono
- 19      style: Light
- 20
- 21    bold:
- 22
- 23      family: BlexMono Nerd Font Mono
- 24      style: Light
- 25
- 26    italic:
- 27
- 28      family: BlexMono Nerd Font Mono
- 29      style: Light
- 30
- 31    bold_italic:
- 32
- 33      family: BlexMono Nerd Font Mono
- 34      style: Light
- 35
- 36    size: 11.0
- 37
- 38  colors:
- 39    primary:
- 40      background: '#000000'
- 41      foreground: '#ffffff'
- 42
- 43  cursor:
- 44    blinking: On
- 45
- 46  live_config_reload: true
+env:
+  
+  TERM: alacritty
+  
+window:
+
+  padding:
+  
+    x: 10
+    y: 10
+    
+  dynamic_padding: true
+  decorations: buttonless
+
+font:
+
+  normal:
+  
+    family: BlexMono Nerd Font Mono
+    style: Light
+    
+  bold:
+
+    family: BlexMono Nerd Font Mono
+    style: Light
+
+  italic:
+ 
+    family: BlexMono Nerd Font Mono
+    style: Light
+      
+  bold_italic:
+  
+    family: BlexMono Nerd Font Mono
+    style: Light
+ 
+  size: 11.0
+  
+colors:
+
+  primary:
+  
+    background: '#000000'
+    foreground: '#ffffff'
+    
+cursor:
+
+  blinking: On
+  
+live_config_reload: true
