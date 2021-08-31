@@ -3,8 +3,6 @@ servers:
     - addr: irc.libera.chat
       port: 6697
       tls: true
-      realname: trevoro
-      nicks: [motheki]
 
       # (optional) Server alias for display in tab line
       alias: LIBERA
@@ -34,8 +32,6 @@ servers:
 
 # Defaults used when connecting to servers via the /connect command
 defaults:
-    nicks: [motheki]
-    realname: trevoro
     join: []
     tls: true
 
