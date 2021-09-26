@@ -1,4 +1,0 @@
-delay_ms = 75
-color_mode = "none"
-kinds = ["dots"]
-turn_chance = 0.15

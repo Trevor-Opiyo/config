@@ -1,21 +1,29 @@
-PROMPT="%~ "
-
-export PATH="/usr/local/opt/curl/bin:$PATH"
-export PATH="/usr/local/opt/openjdk/bin:$PATH"
-export PATH="/usr/local/opt/ruby/bin:$PATH"
-export PATH="/usr/local/opt/python@3.9/bin:$PATH"
-export PATH="/usr/local/opt/go/bin:$PATH"
-export PATH="/usr/local/opt/zsh/bin:$PATH"
-export PATH="/Users/trevoropiyo/.cargo/bin:$PATH"
-
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
-if type brew &>/dev/null; then
-    FPATH=$(brew --prefix)/share/zsh-completions:$FPATH
+alias upd="softwareupdate -ldia & brew upgrade && brew cleanup"
+export PATH="/usr/local/opt/ruby/bin:$PATH"
+export LDFLAGS="-L/usr/local/opt/ruby/lib"
+export CPPFLAGS="-I/usr/local/opt/ruby/include"
+export PATH="/usr/local/opt/openjdk/bin:$PATH"
+export CPPFLAGS="-I/usr/local/opt/openjdk/include"
+export PATH="/usr/local/opt/curl/bin:$PATH"
+export LDFLAGS="-L/usr/local/opt/curl/lib"
+export CPPFLAGS="-I/usr/local/opt/curl/include"
+export PATH="/usr/local/opt/libressl/bin:$PATH"
+export export LDFLAGS="-L/usr/local/opt/libressl/lib"
+export export CPPFLAGS="-L/usr/local/opt/libressl/lib"
+export PATH="/usr/local/opt/openssl@3/bin:$PATH"
+export LDFLAGS="-L/usr/local/opt/openssl@3/lib"
+export CPPFLAGS="-I/usr/local/opt/openssl@3/include"
 
-    autoload -Uz compinit
-    compinit
-  fi
+if type brew &>/dev/null
+then
+  FPATH="$(brew --prefix)/share/zsh/site-functions:${FPATH}"
 
-alias upgrade="softwareupdate -ldia & brew upgrade && brew cleanup"
+  autoload -Uz compinit
+  compinit
+fi
+
+eval "$(starship init zsh)"
+eval "$(zoxide init zsh)"
