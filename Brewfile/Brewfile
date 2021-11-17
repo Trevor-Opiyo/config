@@ -5,6 +5,7 @@ brew "python@3.9"
 brew "curl"
 brew "dotnet"
 brew "ffmpeg"
+brew "gh"
 brew "git"
 brew "go"
 brew "ipfs"
@@ -12,15 +13,33 @@ brew "libressl"
 brew "libssh"
 brew "llvm"
 brew "lua"
+brew "mas"
 brew "mono"
 brew "openjdk"
 brew "openssh"
 brew "openssl@3"
 brew "pandoc"
+brew "publish"
 brew "ruby"
 brew "rustup-init"
 brew "zsh-autosuggestions"
 brew "zsh-syntax-highlighting"
+cask "coderunner"
 cask "discord"
+cask "google-chrome"
 cask "steam"
 cask "zoom"
+mas "Bleak Sword", id: 1462175845
+mas "Boop", id: 1518425043
+mas "Codye", id: 1516894961
+mas "Developer", id: 640199958
+mas "Dynamo", id: 1445910651
+mas "iMovie", id: 408981434
+mas "Keynote", id: 409183694
+mas "Neversong", id: 1492766095
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
+mas "TestFlight", id: 899247664
+mas "Twitter", id: 1482454543
+mas "Warp Drive", id: 1480371753
+mas "Xcode", id: 497799835
