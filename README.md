@@ -1,2 +1,3 @@
 # config
-dotfiles and configuration
+
+A backup of my software development environment
