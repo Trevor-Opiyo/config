@@ -28,7 +28,6 @@ cask "coderunner"
 cask "discord"
 cask "steam"
 cask "zoom"
-mas "Bleak Sword", id: 1462175845
 mas "Developer", id: 640199958
 mas "DuckDuckGo Privacy Essentials", id: 1482920575
 mas "Dynamo", id: 1445910651
