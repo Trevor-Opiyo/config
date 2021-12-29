@@ -1,7 +1,10 @@
+disable_table_indexes = true
 path = ["/Users/trevoropiyo/Library/Application Support/zoxide", "/usr/local/Homebrew/bin", "/usr/bin", "/bin", "/Users/trevoropiyo/.cargo/bin"]
 prompt = "STARSHIP_SHELL= starship prompt"
-startup = ["zoxide init nushell --hook prompt | save ~/.zoxide.nu", "source ~/.zoxide.nu"]
 skip_welcome_message = true
+startup = ["zoxide init nushell --hook prompt | save ~/.zoxide.nu", "source ~/.zoxide.nu"]
+complete_from_path = true
+table_mode = "thin"
 
 [env]
 CMD_DURATION_MS = "38"
