@@ -1,0 +1,6 @@
+theme: Xcode
+theme: CodeRunner
+tab width: 2
+soft_tabs: true
+line_length_guide: 80
+line_wrapping: true
