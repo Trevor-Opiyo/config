@@ -1,9 +1,13 @@
 disable_table_indexes = true
+complete_from_path = true
 path = ["/Users/trevoropiyo/Library/Application Support/zoxide", "/usr/local/Homebrew/bin", "/usr/bin", "/bin", "/Users/trevoropiyo/.cargo/bin"]
 prompt = "STARSHIP_SHELL= starship prompt"
 skip_welcome_message = true
-startup = ["zoxide init nushell --hook prompt | save ~/.zoxide.nu", "source ~/.zoxide.nu"]
-complete_from_path = true
+startup = [
+  "zoxide init nushell --hook prompt | save ~/.zoxide.nu",
+  "source ~/.zoxide.nu",
+  "alias upd = /bin/zsh -c '$(softwareupdate -ldia & brew upgrade & rustup update && brew cleanup)'"
+  ]
 table_mode = "thin"
 
 [env]

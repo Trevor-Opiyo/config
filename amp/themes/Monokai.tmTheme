@@ -9,36 +9,18 @@
 		<dict>
 			<key>settings</key>
 			<dict>
-				<key>activeGuide</key>
-				<string>#9D550FB0</string>
 				<key>background</key>
-				<string>#1D1E19</string>
-				<key>bracketContentsForeground</key>
-				<string>#F8F8F2A5</string>
-				<key>bracketContentsOptions</key>
-				<string>underline</string>
-				<key>bracketsForeground</key>
-				<string>#F8F8F2A5</string>
-				<key>bracketsOptions</key>
-				<string>underline</string>
+				<string>#272822</string>
 				<key>caret</key>
 				<string>#F8F8F0</string>
-				<key>findHighlight</key>
-				<string>#FFE792</string>
-				<key>findHighlightForeground</key>
-				<string>#000000</string>
 				<key>foreground</key>
 				<string>#F8F8F2</string>
 				<key>invisibles</key>
-				<string>#656356</string>
+				<string>#3B3A32</string>
 				<key>lineHighlight</key>
-				<string>#3E3D3266</string>
+				<string>#3E3D32</string>
 				<key>selection</key>
 				<string>#49483E</string>
-				<key>selectionBorder</key>
-				<string>#222218</string>
-				<key>tagsOptions</key>
-				<string>stippled_underline</string>
 			</dict>
 		</dict>
 		<dict>
@@ -200,7 +182,7 @@
 			<key>name</key>
 			<string>Tag name</string>
 			<key>scope</key>
-			<string>entity.name.tag, punctuation.definition.tag</string>
+			<string>entity.name.tag</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -300,114 +282,8 @@
 				<string>#F8F8F0</string>
 			</dict>
 		</dict>
-		<dict>
-			<key>name</key>
-			<string>JSON String</string>
-			<key>scope</key>
-			<string>meta.structure.dictionary.json string.quoted.double.json</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#CFCFC2</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>diff.header</string>
-			<key>scope</key>
-			<string>meta.diff, meta.diff.header</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#75715E</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>diff.deleted</string>
-			<key>scope</key>
-			<string>markup.deleted</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#F92672</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>diff.inserted</string>
-			<key>scope</key>
-			<string>markup.inserted</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#A6E22E</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>diff.changed</string>
-			<key>scope</key>
-			<string>markup.changed</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#E6DB74</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>scope</key>
-			<string>constant.numeric.line-number.find-in-files - match</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#AE81FFA0</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>scope</key>
-			<string>entity.name.filename.find-in-files</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#E6DB74</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>CodeRunner Console Informative Text</string>
-			<key>scope</key>
-			<string>console.warning, console.notice, console.debugger, meta.coderunner.console-informative</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#898B8D</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>CodeRunner Console Error Text</string>
-			<key>scope</key>
-			<string>console.error, meta.coderunner.console-error</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#FF0000</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>CodeRunner Debugger Prompt</string>
-			<key>scope</key>
-			<string>console.prompt, meta.coderunner.debugger-prompt</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#F92672</string>
-			</dict>
-		</dict>
 	</array>
 	<key>uuid</key>
-	<string>52E837FE-BD98-4EC7-AEC7-6A9A190F8BB2</string>
+	<string>D8D5E82E-3D5B-46B5-B38E-8C841C21347D</string>
 </dict>
 </plist>

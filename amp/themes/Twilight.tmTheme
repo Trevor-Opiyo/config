@@ -1,35 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
 	<key>author</key>
 	<string>Michael Sheets</string>
-	<key>gutterSettings</key>
-	<dict>
-		<key>background</key>
-		<string>#2F2F31</string>
-		<key>divider</key>
-		<string>#414143</string>
-		<key>foreground</key>
-		<string>#8F8F8F</string>
-		<key>selectionBackground</key>
-		<string>#414143</string>
-		<key>selectionBorder</key>
-		<string>#484848</string>
-		<key>selectionForeground</key>
-		<string>#BABABA</string>
-	</dict>
 	<key>name</key>
 	<string>Twilight</string>
-	<key>semanticClass</key>
-	<string>theme.dark.twilight</string>
 	<key>settings</key>
 	<array>
 		<dict>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#181818</string>
+				<string>#141414</string>
 				<key>caret</key>
 				<string>#A7A7A7</string>
 				<key>foreground</key>
@@ -40,17 +23,6 @@
 				<string>#FFFFFF08</string>
 				<key>selection</key>
 				<string>#DDF0FF33</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Foldings</string>
-			<key>scope</key>
-			<string>deco.folding</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#5A6A65</string>
 			</dict>
 		</dict>
 		<dict>
@@ -189,7 +161,7 @@
 			<key>name</key>
 			<string>♦ Embedded Source</string>
 			<key>scope</key>
-			<string>meta.embedded.block, punctuation.whitespace.embedded</string>
+			<string>text source</string>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
@@ -200,7 +172,7 @@
 			<key>name</key>
 			<string>♦ Embedded Source (Bright)</string>
 			<key>scope</key>
-			<string>meta.embedded.line</string>
+			<string>text.html.ruby source</string>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
@@ -224,7 +196,7 @@
 			<key>name</key>
 			<string>♦ String embedded-source</string>
 			<key>scope</key>
-			<string>string meta.embedded</string>
+			<string>string source</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -309,7 +281,7 @@
 			<key>name</key>
 			<string>c C/C++ Preprocessor Line</string>
 			<key>scope</key>
-			<string>meta.preprocessor.c, source.swift meta.preprocessor</string>
+			<string>meta.preprocessor.c</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -320,7 +292,7 @@
 			<key>name</key>
 			<string>c C/C++ Preprocessor Directive</string>
 			<key>scope</key>
-			<string>meta.preprocessor.c keyword, source.swift meta.preprocessor keyword</string>
+			<string>meta.preprocessor.c keyword</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -331,7 +303,7 @@
 			<key>name</key>
 			<string>✘ Doctype/XML Processing</string>
 			<key>scope</key>
-			<string>meta.tag.metadata.doctype, meta.tag.metadata.doctype entity, meta.tag.metadata.doctype string, meta.tag.metadata.processing.xml, meta.tag.metadata.processing.xml entity, meta.tag.metadata.processing.xml string</string>
+			<string>meta.tag.sgml.doctype, meta.tag.sgml.doctype entity, meta.tag.sgml.doctype string, meta.tag.preprocessor.xml, meta.tag.preprocessor.xml entity, meta.tag.preprocessor.xml string</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -353,7 +325,7 @@
 			<key>name</key>
 			<string>✘ Meta.tag.inline</string>
 			<key>scope</key>
-			<string>declaration.tag.inline, declaration.tag.inline entity, meta.tag.inline, meta.tag.inline entity</string>
+			<string>declaration.tag.inline, declaration.tag.inline entity, source entity.name.tag, source entity.other.attribute-name, meta.tag.inline, meta.tag.inline entity</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -463,7 +435,7 @@
 			<key>name</key>
 			<string>⎇ diff.header</string>
 			<key>scope</key>
-			<string>meta.diff, meta.diff.header, meta.separator, meta.diff.range, meta.diff.index</string>
+			<string>meta.diff, meta.diff.header, meta.separator</string>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
@@ -533,17 +505,6 @@
 			<dict>
 				<key>foreground</key>
 				<string>#CF6A4C</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Markup: Raw Block</string>
-			<key>scope</key>
-			<string>markup.raw.block</string>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string>#B0B3BA14</string>
 			</dict>
 		</dict>
 	</array>

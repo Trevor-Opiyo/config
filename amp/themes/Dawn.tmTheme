@@ -430,45 +430,6 @@
 				<string>#19356D</string>
 			</dict>
 		</dict>
-		<dict>
-			<key>name</key>
-			<string>CodeRunner Console Informative Text</string>
-			<key>scope</key>
-			<string>console.warning, console.notice, console.debugger, meta.coderunner.console-informative</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#6D6D6D</string>
-				<key>fontStyle</key>
-				<string>italic</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>CodeRunner Console Error Text</string>
-			<key>scope</key>
-			<string>console.error, meta.coderunner.console-error</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#F20004</string>
-				<key>fontStyle</key>
-				<string>bold</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>CodeRunner Debugger Prompt</string>
-			<key>scope</key>
-			<string>console.prompt, meta.coderunner.debugger-prompt</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#009157</string>
-				<key>fontStyle</key>
-				<string>bold</string>
-			</dict>
-		</dict>
 	</array>
 	<key>uuid</key>
 	<string>E7E82498-F9EA-49A6-A0D8-12327EA46B01</string>

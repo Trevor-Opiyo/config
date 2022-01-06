@@ -803,41 +803,6 @@
 				<string>#751012</string>
 			</dict>
 		</dict>
-		<dict>
-			<key>name</key>
-			<string>CodeRunner Console Informative Text</string>
-			<key>scope</key>
-			<string>console.warning, console.notice, console.debugger, meta.coderunner.console-informative</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#898B8D</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>CodeRunner Console Error Text</string>
-			<key>scope</key>
-			<string>console.error, meta.coderunner.console-error</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#FF0000</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>CodeRunner Debugger Prompt</string>
-			<key>scope</key>
-			<string>console.prompt, meta.coderunner.debugger-prompt</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#96CBFE</string>
-				<key>fontStyle</key>
-				<string>bold</string>
-			</dict>
-		</dict>
 	</array>
 	<key>uuid</key>
 	<string>D039AEA9-9DD2-4237-A963-E84494B0B3FB</string>

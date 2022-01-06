@@ -16,7 +16,7 @@
 				<key>foreground</key>
 				<string>#000000</string>
 				<key>invisibles</key>
-				<string>#00000026</string>
+				<string>#BFBFBF</string>
 				<key>lineHighlight</key>
 				<string>#EEF1F5</string>
 				<key>selection</key>
@@ -253,7 +253,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#2B8B2A</string>
+				<string>#F02A1D</string>
 			</dict>
 		</dict>
 		<dict>
@@ -263,8 +263,6 @@
 			<string>invalid</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string></string>
 				<key>foreground</key>
 				<string>#EB291C</string>
 			</dict>
@@ -276,6 +274,8 @@
 			<string>variable.other.php, variable.other.normal</string>
 			<key>settings</key>
 			<dict>
+				<key>fontStyle</key>
+				<string></string>
 				<key>foreground</key>
 				<string>#916305</string>
 			</dict>
@@ -304,145 +304,6 @@
 				<string></string>
 				<key>foreground</key>
 				<string>#AA2063</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Tag</string>
-			<key>scope</key>
-			<string>meta.tag</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#A21297</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Tag Name</string>
-			<key>scope</key>
-			<string>entity.name.tag</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#A21297</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Doctype</string>
-			<key>scope</key>
-			<string>meta.doctype, meta.tag.sgml-declaration.doctype, meta.tag.sgml.doctype</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#2B8B2C</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Tag Inline Source</string>
-			<key>scope</key>
-			<string>meta.tag.inline source, text.html.php.source</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#2B8B2B</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Tag Other</string>
-			<key>scope</key>
-			<string>meta.tag.other, entity.name.tag.style, entity.name.tag.script, meta.tag.block.script, source.js.embedded punctuation.definition.tag.html, source.css.embedded punctuation.definition.tag.html</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#A21297</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Tag Attribute</string>
-			<key>scope</key>
-			<string>entity.other.attribute-name, meta.tag punctuation.definition.string</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#B14E00</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Tag Value</string>
-			<key>scope</key>
-			<string>meta.tag string -source -punctuation, text source text meta.tag string -punctuation</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#1A1BB7</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Meta Brace</string>
-			<key>scope</key>
-			<string>punctuation.section.embedded -(source string source punctuation.section.embedded), meta.brace.erb.html</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#EA291C</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>CodeRunner Console Informative Text</string>
-			<key>scope</key>
-			<string>console.warning, console.notice, console.debugger, meta.coderunner.console-informative</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#6D6D6D</string>
-				<key>fontStyle</key>
-				<string>italic</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>CodeRunner Console Error Text</string>
-			<key>scope</key>
-			<string>console.error, meta.coderunner.console-error</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#F20004</string>
-				<key>fontStyle</key>
-				<string>bold</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>CodeRunner Debugger Prompt</string>
-			<key>scope</key>
-			<string>console.prompt, meta.coderunner.debugger-prompt</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#009157</string>
-				<key>fontStyle</key>
-				<string>bold</string>
 			</dict>
 		</dict>
 	</array>
