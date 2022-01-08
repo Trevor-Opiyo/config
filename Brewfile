@@ -43,7 +43,6 @@ brew "zsh"
 brew "zsh-autosuggestions"
 brew "zsh-syntax-highlighting"
 brew "lhvy/tap/pipes-rs"
-cask "authy"
 cask "brave-browser-nightly"
 cask "coderunner"
 cask "discord-canary"
@@ -53,6 +52,7 @@ cask "macs-fan-control"
 cask "steam"
 mas "Aviary", id: 1522043420
 mas "Baking Soda", id: 1601151613
+mas "Dynamo", id: 1445910651
 mas "Hush", id: 1544743900
 mas "Keynote", id: 409183694
 mas "Magic Lasso", id: 1198047227
