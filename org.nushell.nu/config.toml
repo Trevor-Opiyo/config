@@ -6,9 +6,8 @@ skip_welcome_message = true
 startup = [
   "zoxide init nushell --hook prompt | save ~/.zoxide.nu",
   "source ~/.zoxide.nu",
-  "alias upd = /bin/zsh -c '$(softwareupdate -ldia & brew upgrade & rustup update && brew cleanup)'"
   ]
-table_mode = "thin"
+table_mode = "rounded"
 
 [env]
 CMD_DURATION_MS = "38"
@@ -18,8 +17,8 @@ LOGNAME = "trevoropiyo"
 SHELL = "/Users/trevoropiyo/.cargo/bin/nu"
 SSH_AUTH_SOCK = "/private/tmp/com.apple.launchd.PpYlZmOzFb/Listeners"
 TERM = "xterm-256color"
-TERM_PROGRAM = "Apple_Terminal"
-TERM_PROGRAM_VERSION = "440"
+TERM_PROGRAM = "iTerm2"
+TERM_PROGRAM_VERSION = "3.5.0beta4"
 TERM_SESSION_ID = "51C0514B-D665-400E-950C-42816F038643"
 TMPDIR = "/var/folders/9s/0m6x4p995bbgjfy9h6jp1tvr0000gn/T/"
 USER = "trevoropiyo"

@@ -17,7 +17,7 @@ brew "gcc"
 brew "git"
 brew "gnupg"
 brew "go"
-brew "ipfs", restart_service: true
+brew "ipfs"
 brew "libressl"
 brew "libssh"
 brew "llvm"
@@ -43,21 +43,16 @@ brew "zsh"
 brew "zsh-autosuggestions"
 brew "zsh-syntax-highlighting"
 brew "lhvy/tap/pipes-rs"
-cask "brave-browser-nightly"
 cask "coderunner"
 cask "discord-canary"
 cask "firefox-nightly"
 cask "font-ibm-plex"
-cask "macs-fan-control"
+cask "iterm2"
 cask "steam"
 mas "Aviary", id: 1522043420
 mas "Baking Soda", id: 1601151613
-mas "Dynamo", id: 1445910651
 mas "Hush", id: 1544743900
-mas "Keynote", id: 409183694
 mas "Magic Lasso", id: 1198047227
-mas "Magnet", id: 441258766
-mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Reeder", id: 1529448980
 mas "Super Agent", id: 1568262835
