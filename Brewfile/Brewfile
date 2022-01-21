@@ -11,6 +11,7 @@ brew "python@3.9"
 brew "cmake"
 brew "curl"
 brew "dotnet"
+brew "elixir"
 brew "libtool"
 brew "ffmpeg"
 brew "gcc"
@@ -51,10 +52,14 @@ cask "iterm2"
 cask "steam"
 mas "Aviary", id: 1522043420
 mas "Baking Soda", id: 1601151613
+mas "DuckDuckGo Privacy Essentials", id: 1482920575
+mas "Dynamo", id: 1445910651
 mas "Hush", id: 1544743900
 mas "Magic Lasso", id: 1198047227
+mas "Magnet", id: 441258766
 mas "Pages", id: 409201541
 mas "Reeder", id: 1529448980
 mas "Super Agent", id: 1568262835
 mas "Vinegar", id: 1591303229
+mas "WhatsApp", id: 1147396723
 mas "Xcode", id: 497799835
