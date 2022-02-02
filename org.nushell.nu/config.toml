@@ -1,22 +1,36 @@
-disable_table_indexes = true
 complete_from_path = true
-path = ["/Users/trevoropiyo/Library/Application Support/zoxide", "/usr/local/Homebrew/bin", "/usr/bin", "/bin", "/Users/trevoropiyo/.cargo/bin"]
+disable_table_indexes = true
+path = ["/usr/local/bin", "/usr/local/Cellar/git", "/usr/local/opt/python@3.10/bin", "/Users/trevoropiyo/Library/Application Support/zoxide", "/usr/local/Homebrew/bin", "/usr/bin", "/bin", "/Users/trevoropiyo/.cargo/bin", "/usr/local/opt/libssh2/bin", "/usr/local/opt/openssh/bin", "/usr/local/opt/libssh/bin", "/usr/local/opt/openssl@1/bin", "/usr/local/opt/openssl@3/bin", "/usr/local/opt/libressl/bin", "/usr/local/opt/llvm/bin", "/usr/local/opt/curl/bin", "/usr/local/opt/openjdk/bin", "/usr/local/opt/ruby/bin", "/usr/local/sbin", "/usr/local/bin", "/usr/sbin", "/sbin", "/Library/Apple/usr/bin"]
 prompt = "STARSHIP_SHELL= starship prompt"
 skip_welcome_message = true
-startup = [
-  "zoxide init nushell --hook prompt | save ~/.zoxide.nu",
-  "source ~/.zoxide.nu",
-  ]
+startup = ["zoxide init nushell --hook prompt | save ~/.zoxide.nu", "source ~/.zoxide.nu"]
 table_mode = "rounded"
 
 [env]
-CMD_DURATION_MS = "38"
+CMD_DURATION_MS = "24"
+COLORFGBG = "0;15"
+COLORTERM = "truecolor"
+COMMAND_MODE = "unix2003"
+CPPFLAGS = "-I/usr/local/opt/libssh2/include"
+DOTNET_ROOT = "/usr/local/opt/dotnet/libexec"
+GPG_TTY = "/dev/ttys000"
 HOME = "/Users/trevoropiyo"
+ITERM_PROFILE = "Default"
+ITERM_SESSION_ID = "w0t0p0:22D110B7-6C07-4581-A76F-71F8956E6E05"
 LANG = "en_US.UTF-8"
+LC_TERMINAL = "iTerm2"
+LC_TERMINAL_VERSION = "3.5.0beta4"
+LDFLAGS = "-L/usr/local/opt/libssh2/lib"
 LOGNAME = "trevoropiyo"
+OLDPWD = "/Users/trevoropiyo"
+PWD = "/Users/trevoropiyo"
 SHELL = "/Users/trevoropiyo/.cargo/bin/nu"
+SHLVL = "1"
 SSH_AUTH_SOCK = "/private/tmp/com.apple.launchd.PpYlZmOzFb/Listeners"
+STARSHIP_SESSION_KEY = "2692427323135921"
+STARSHIP_SHELL = "zsh"
 TERM = "xterm-256color"
+TERMINFO_DIRS = "/Applications/iTerm.app/Contents/Resources/terminfo:/usr/share/terminfo"
 TERM_PROGRAM = "iTerm2"
 TERM_PROGRAM_VERSION = "3.5.0beta4"
 TERM_SESSION_ID = "51C0514B-D665-400E-950C-42816F038643"
@@ -24,5 +38,6 @@ TMPDIR = "/var/folders/9s/0m6x4p995bbgjfy9h6jp1tvr0000gn/T/"
 USER = "trevoropiyo"
 XPC_FLAGS = "0x0"
 XPC_SERVICE_NAME = "0"
+_ = "/Users/trevoropiyo/.cargo/bin/nu"
 __CFBundleIdentifier = "com.apple.Terminal"
 __CF_USER_TEXT_ENCODING = "0x1F5:0x0:0x0"
