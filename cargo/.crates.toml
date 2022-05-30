@@ -1,0 +1,57 @@
+[v1]
+"amp 0.6.2 (registry+https://github.com/rust-lang/crates.io-index)" = ["amp"]
+"bat 0.21.0 (registry+https://github.com/rust-lang/crates.io-index)" = ["bat"]
+"bottom 0.6.8 (registry+https://github.com/rust-lang/crates.io-index)" = ["btm"]
+"cargo-update 8.1.4 (registry+https://github.com/rust-lang/crates.io-index)" = [
+    "cargo-install-update",
+    "cargo-install-update-config",
+]
+"code-minimap 0.6.4 (registry+https://github.com/rust-lang/crates.io-index)" = ["code-minimap"]
+"comrak 0.12.1 (registry+https://github.com/rust-lang/crates.io-index)" = ["comrak"]
+"didyoumean 1.1.3 (registry+https://github.com/rust-lang/crates.io-index)" = ["dym"]
+"du-dust 0.8.0 (registry+https://github.com/rust-lang/crates.io-index)" = ["dust"]
+"exa 0.10.1 (registry+https://github.com/rust-lang/crates.io-index)" = ["exa"]
+"fastmod 0.4.2 (registry+https://github.com/rust-lang/crates.io-index)" = ["fastmod"]
+"fd-find 8.4.0 (registry+https://github.com/rust-lang/crates.io-index)" = ["fd"]
+"git-cliff 0.7.0 (registry+https://github.com/rust-lang/crates.io-index)" = [
+    "git-cliff",
+    "git-cliff-completions",
+    "git-cliff-mangen",
+]
+"git-delta 0.13.0 (registry+https://github.com/rust-lang/crates.io-index)" = ["delta"]
+"hyperfine 1.14.0 (registry+https://github.com/rust-lang/crates.io-index)" = ["hyperfine"]
+"jless 0.8.0 (registry+https://github.com/rust-lang/crates.io-index)" = ["jless"]
+"just 1.1.3 (registry+https://github.com/rust-lang/crates.io-index)" = ["just"]
+"lsd 0.21.0 (registry+https://github.com/rust-lang/crates.io-index)" = ["lsd"]
+"mdbook 0.4.18 (registry+https://github.com/rust-lang/crates.io-index)" = ["mdbook"]
+"mdcat 0.27.1 (registry+https://github.com/rust-lang/crates.io-index)" = ["mdcat"]
+"natls 2.1.14 (registry+https://github.com/rust-lang/crates.io-index)" = ["natls"]
+"nu 0.63.0 (registry+https://github.com/rust-lang/crates.io-index)" = ["nu"]
+"pepper 0.26.1 (registry+https://github.com/rust-lang/crates.io-index)" = ["pepper"]
+"pipes-rs 1.4.7 (git+https://github.com/lhvy/pipes-rs#21870121bca980dac15dc5d3274e7b3d7b9b598a)" = ["pipes-rs"]
+"procs 0.12.3 (registry+https://github.com/rust-lang/crates.io-index)" = ["procs"]
+"r-matrix 0.2.1 (registry+https://github.com/rust-lang/crates.io-index)" = ["r-matrix"]
+"ripgrep 13.0.0 (registry+https://github.com/rust-lang/crates.io-index)" = ["rg"]
+"rm-improved 0.13.1 (registry+https://github.com/rust-lang/crates.io-index)" = ["rip"]
+"rnr 0.4.0 (registry+https://github.com/rust-lang/crates.io-index)" = ["rnr"]
+"rocketfetch 0.6.8 (registry+https://github.com/rust-lang/crates.io-index)" = ["rocketfetch"]
+"rust-passmaker 0.2.0 (registry+https://github.com/rust-lang/crates.io-index)" = ["rust-passmaker"]
+"rustscan 2.1.0 (registry+https://github.com/rust-lang/crates.io-index)" = ["rustscan"]
+"sd 0.7.6 (registry+https://github.com/rust-lang/crates.io-index)" = ["sd"]
+"skim 0.9.4 (registry+https://github.com/rust-lang/crates.io-index)" = ["sk"]
+"starship 1.7.1 (registry+https://github.com/rust-lang/crates.io-index)" = ["starship"]
+"tealdeer 1.5.0 (registry+https://github.com/rust-lang/crates.io-index)" = ["tldr"]
+"thokr 0.3.0 (registry+https://github.com/rust-lang/crates.io-index)" = ["thokr"]
+"tiny 0.10.0 (git+https://github.com/osa1/tiny#52b1383b91f7a064c73d87a5bdac03f62af2b4e8)" = ["tiny"]
+"tock 0.1.4 (registry+https://github.com/rust-lang/crates.io-index)" = ["tock"]
+"toipe 0.4.0 (registry+https://github.com/rust-lang/crates.io-index)" = [
+    "randomword",
+    "toipe",
+]
+"tokei 12.1.2 (registry+https://github.com/rust-lang/crates.io-index)" = ["tokei"]
+"tree-rs 0.6.5 (registry+https://github.com/rust-lang/crates.io-index)" = ["tree-rs"]
+"xcp 0.9.1 (registry+https://github.com/rust-lang/crates.io-index)" = ["xcp"]
+"xh 0.16.1 (registry+https://github.com/rust-lang/crates.io-index)" = ["xh"]
+"xsv 0.13.0 (registry+https://github.com/rust-lang/crates.io-index)" = ["xsv"]
+"yaydl 0.10.0 (registry+https://github.com/rust-lang/crates.io-index)" = ["yaydl"]
+"zoxide 0.8.1 (registry+https://github.com/rust-lang/crates.io-index)" = ["zoxide"]
