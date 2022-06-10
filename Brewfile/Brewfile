@@ -5,10 +5,11 @@ tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
+tap "wez/wezterm"
 brew "aom"
+brew "openssl@1.1"
 brew "autoconf"
 brew "automake"
-brew "openssl@1.1"
 brew "sqlite"
 brew "python@3.9"
 brew "cmake"
@@ -20,25 +21,32 @@ brew "emacs"
 brew "ffmpeg", args: ["HEAD"]
 brew "fzf"
 brew "gcc"
+brew "libavif"
 brew "git", args: ["HEAD"]
 brew "gitlab-runner", restart_service: true
 brew "gnupg"
 brew "go", args: ["HEAD"]
 brew "ipfs"
 brew "jq"
-brew "libavif"
+brew "less", args: ["HEAD"]
+brew "libressl", args: ["HEAD"]
 brew "python@3.10"
 brew "llvm"
 brew "lua"
+brew "luarocks", args: ["HEAD"]
 brew "mosh"
 brew "neovim", args: ["HEAD"]
 brew "ninja", args: ["HEAD"]
 brew "node"
+brew "node@16"
 brew "openjdk"
+brew "openssl@3"
 brew "pandoc"
+brew "php", args: ["HEAD"]
 brew "postgresql"
 brew "python@3.8"
 brew "rustup-init"
+brew "wget"
 brew "yarn"
 brew "youtube-dl"
 brew "zig", args: ["HEAD"]
@@ -46,15 +54,15 @@ brew "zsh", args: ["HEAD"]
 brew "zsh-autosuggestions"
 brew "zsh-fast-syntax-highlighting", args: ["HEAD"]
 brew "eth-p/software/bat-extras"
-cask "brave-browser-nightly"
 cask "coderunner"
 cask "discord-canary"
 cask "firefox-nightly"
 cask "font-agave-nerd-font"
 cask "font-bigblue-terminal-nerd-font"
 cask "font-blex-mono-nerd-font"
+cask "font-ibm-plex"
+cask "font-jetbrains-mono"
 cask "font-jetbrains-mono-nerd-font"
-cask "google-chrome-canary"
-cask "iterm2"
 cask "steam"
 cask "visual-studio-code-insiders"
+cask "wezterm-nightly"
